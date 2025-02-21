@@ -3,7 +3,7 @@
 ## Overview  
 This project implements a simple ATM server-client system deployed on [Render](https://render.com). The server handles account operations such as deposits, withdrawals, and balance inquiries.  
 
-**Note:** The server is currently **offline** but can be deployed upon request.  
+**Note:** The server might be **offline** but can be deployed upon request.  
 
 ## Server  
 - **Type:** HTTPS server  
