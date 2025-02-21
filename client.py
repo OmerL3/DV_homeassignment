@@ -2,7 +2,8 @@ import requests
 import json
 
 # Server URL
-URL = 'http://127.0.0.1:5001'
+#URL = 'http://127.0.0.1:5001'
+URL = 'https://dv-homeassignment-1.onrender.com'
 
 # Send request to server
 def send_request(data):

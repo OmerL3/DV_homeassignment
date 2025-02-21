@@ -4,8 +4,13 @@ import json
 from datetime import datetime
 
 # Server settings
-HOST = '127.0.0.1'
-PORT = 5001
+#HOST = '127.0.0.1'
+#PORT = 5001
+import os
+
+HOST = '0.0.0.0'  # Listen on all available network interfaces
+PORT = int(os.environ.get("PORT", 5000))  # Use Render's provided port, default to 5000
+
 
 # Hash table for accounts: {account_number: {'password': password, 'balance': balance}}
 accounts = {}
